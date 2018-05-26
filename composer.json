@@ -1,13 +1,13 @@
 {
-    "name": “zisms/infobip",
+    "name": "zisms/infobip",
     "description": "Infobip support for SMSs",
-    "homepage": "https://zobit.net”,
+    "homepage": "https://zobit.net",
     "license": "MIT",
     "authors": [
         {
-            "name": “Ofumbi Stephen”,
-            "email": “ofuzak@gmail”,
-            "homepage": "https://zisms.com”,
+            "name": "Ofumbi Stephen",
+            "email": "ofuzak@gmail",
+            "homepage": "https://zisms.com",
             "role": "Developer"
         }
     ],
