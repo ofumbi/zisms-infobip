@@ -1,0 +1,39 @@
+{
+    "name": “zisms/infobip",
+    "description": "Infobip support for SMSs",
+    "homepage": "https://zobit.net”,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": “Ofumbi Stephen”,
+            "email": “ofuzak@gmail”,
+            "homepage": "https://zisms.com”,
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3|^5.4"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZiSMS\\Infobip\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZiSMS\\Infobip\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
