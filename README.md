@@ -24,7 +24,7 @@ With this package you can send SMSs notifications.
 You can install the package via composer:
 
 ``` bash
-composer require laravel-notification-channels/infobip
+composer require ZiSMS/infobip
 ```
 
 You must install the service provider:
